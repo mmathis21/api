@@ -1,0 +1,83 @@
+{
+  "assets": [
+    {
+      "id": 1,
+      "name": "Asset A",
+      "type": "Vehicle",
+      "status": "Operational",
+      "location": "Warehouse 1"
+    },
+    {
+      "id": 2,
+      "name": "Asset B",
+      "type": "Machinery",
+      "status": "Under Maintenance",
+      "location": "Factory Floor"
+    },
+    {
+      "id": 3,
+      "name": "Asset C",
+      "type": "Electronics",
+      "status": "Operational",
+      "location": "Office 2"
+    },
+    {
+      "id": 4,
+      "name": "Asset D",
+      "type": "Furniture",
+      "status": "In Storage",
+      "location": "Storage Room 3"
+    },
+    {
+      "id": 5,
+      "name": "Asset E",
+      "type": "Software",
+      "status": "Licensed",
+      "location": "Cloud"
+    },
+    {
+      "id": 6,
+      "name": "Asset F",
+      "type": "Tool",
+      "status": "Operational",
+      "location": "Tool Shed"
+    },
+    {
+      "id": 7,
+      "name": "Asset G",
+      "type": "Vehicle",
+      "status": "In Transit",
+      "location": "Route 45"
+    }
+  ],
+  "facilities": [
+    {
+      "id": 1,
+      "name": "Facility X",
+      "location": "City Center",
+      "capacity": 200,
+      "type": "Office"
+    },
+    {
+      "id": 2,
+      "name": "Facility Y",
+      "location": "Industrial Park",
+      "capacity": 500,
+      "type": "Factory"
+    },
+    {
+      "id": 3,
+      "name": "Facility Z",
+      "location": "Suburban Area",
+      "capacity": 300,
+      "type": "Warehouse"
+    },
+    {
+      "id": 4,
+      "name": "Facility W",
+      "location": "Downtown",
+      "capacity": 100,
+      "type": "Retail"
+    }
+  ]
+}
