@@ -1,4 +1,5 @@
-[
+{
+  "assets": [
   {
     "id": 1,
     "name": "Forklift A",
@@ -62,4 +63,35 @@
     "isActive": true,
     "currentZonesIds": [1]
   }
-]
+],
+  "facilities": [
+    {
+      "id": 1,
+      "name": "Facility X",
+      "location": "City Center",
+      "capacity": 200,
+      "type": "Office"
+    },
+    {
+      "id": 2,
+      "name": "Facility Y",
+      "location": "Industrial Park",
+      "capacity": 500,
+      "type": "Factory"
+    },
+    {
+      "id": 3,
+      "name": "Facility Z",
+      "location": "Suburban Area",
+      "capacity": 300,
+      "type": "Warehouse"
+    },
+    {
+      "id": 4,
+      "name": "Facility W",
+      "location": "Downtown",
+      "capacity": 100,
+      "type": "Retail"
+    }
+  ]
+}
