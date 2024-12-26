@@ -1,83 +1,65 @@
-{
-  "assets": [
-    {
-      "id": 1,
-      "name": "Asset A",
-      "type": "Vehicle",
-      "status": "Operational",
-      "location": "Warehouse 1"
-    },
-    {
-      "id": 2,
-      "name": "Asset B",
-      "type": "Machinery",
-      "status": "Under Maintenance",
-      "location": "Factory Floor"
-    },
-    {
-      "id": 3,
-      "name": "Asset C",
-      "type": "Electronics",
-      "status": "Operational",
-      "location": "Office 2"
-    },
-    {
-      "id": 4,
-      "name": "Asset D",
-      "type": "Furniture",
-      "status": "In Storage",
-      "location": "Storage Room 3"
-    },
-    {
-      "id": 5,
-      "name": "Asset E",
-      "type": "Software",
-      "status": "Licensed",
-      "location": "Cloud"
-    },
-    {
-      "id": 6,
-      "name": "Asset F",
-      "type": "Tool",
-      "status": "Operational",
-      "location": "Tool Shed"
-    },
-    {
-      "id": 7,
-      "name": "Asset G",
-      "type": "Vehicle",
-      "status": "In Transit",
-      "location": "Route 45"
-    }
-  ],
-  "facilities": [
-    {
-      "id": 1,
-      "name": "Facility X",
-      "location": "City Center",
-      "capacity": 200,
-      "type": "Office"
-    },
-    {
-      "id": 2,
-      "name": "Facility Y",
-      "location": "Industrial Park",
-      "capacity": 500,
-      "type": "Factory"
-    },
-    {
-      "id": 3,
-      "name": "Facility Z",
-      "location": "Suburban Area",
-      "capacity": 300,
-      "type": "Warehouse"
-    },
-    {
-      "id": 4,
-      "name": "Facility W",
-      "location": "Downtown",
-      "capacity": 100,
-      "type": "Retail"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "name": "Forklift A",
+    "parentFacilityId": 101,
+    "position": { "x": 12.5, "y": 7.8 },
+    "lastSync": "2024-12-25T15:30:00Z",
+    "isActive": true,
+    "currentZonesIds": [1, 2]
+  },
+  {
+    "id": 2,
+    "name": "Conveyor Belt B",
+    "parentFacilityId": 102,
+    "position": { "x": 25.0, "y": 14.3 },
+    "lastSync": "2024-12-25T15:35:00Z",
+    "isActive": true,
+    "currentZonesIds": [3]
+  },
+  {
+    "id": 3,
+    "name": "Robot Arm C",
+    "parentFacilityId": 103,
+    "position": { "x": 9.2, "y": 18.4 },
+    "lastSync": "2024-12-25T15:40:00Z",
+    "isActive": false,
+    "currentZonesIds": [4, 5]
+  },
+  {
+    "id": 4,
+    "name": "Drone D",
+    "parentFacilityId": 104,
+    "position": { "x": 45.8, "y": 32.1 },
+    "lastSync": "2024-12-25T15:45:00Z",
+    "isActive": true,
+    "currentZonesIds": [6]
+  },
+  {
+    "id": 5,
+    "name": "Warehouse Camera E",
+    "parentFacilityId": 105,
+    "position": { "x": 3.0, "y": 5.2 },
+    "lastSync": "2024-12-25T15:50:00Z",
+    "isActive": false,
+    "currentZonesIds": []
+  },
+  {
+    "id": 6,
+    "name": "Assembly Machine F",
+    "parentFacilityId": 106,
+    "position": { "x": 20.0, "y": 10.0 },
+    "lastSync": "2024-12-25T15:55:00Z",
+    "isActive": true,
+    "currentZonesIds": [2, 3]
+  },
+  {
+    "id": 7,
+    "name": "AGV G",
+    "parentFacilityId": 107,
+    "position": { "x": 15.7, "y": 8.3 },
+    "lastSync": "2024-12-25T16:00:00Z",
+    "isActive": true,
+    "currentZonesIds": [1]
+  }
+]
